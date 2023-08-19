@@ -104,9 +104,9 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_CRC_Init();
-  MX_ETH_Init();
+  //MX_ETH_Init();
   MX_USART3_UART_Init();
-  MX_USB_OTG_FS_PCD_Init();
+  //MX_USB_OTG_FS_PCD_Init();
   MX_X_CUBE_AI_Init();
   /* USER CODE BEGIN 2 */
 

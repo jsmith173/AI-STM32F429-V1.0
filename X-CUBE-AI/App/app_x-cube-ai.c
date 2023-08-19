@@ -175,6 +175,9 @@ void MX_X_CUBE_AI_Process()
   if (c == 2)
 	a=1;
   
+  if (passed)
+	  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_0, GPIO_PIN_SET);
+
   c++;
   
 }
